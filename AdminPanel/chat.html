@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Chat</title>
+</head>
+
+<body>
+    <div class="container-fluid pl-4 pr-4 ml-0 mr-0 ">
+        <div class="row">
+            <nav class="col-lg-2  navbar-expand-lg side-bar">
+                <div class="side-menu">
+                    <a class="navbar-brand pt-3 color"><i class="bi bi-shield-shaded"></i>Iwosan</a>
+                    <button class="navbar-toggler text-left" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon hamburger"><i class="bi bi-list"></i></span>
+                      </button>
+                    <hr class="emergancy">
+                    <div class="navbar-collapse collapse" id="navbarsExample05">
+                        <ul class="mt-2  list-unstyled ">
+                            <a href="./index.html" class="list-items">
+                                <li class="mt-4"> <i class="bi bi-layout-text-sidebar-reverse"></i>&nbsp; Overviews</li>
+                            </a>
+                            <a href="#" class="list-items">
+                                <li class="mt-5"><i class="bi bi-calendar3"></i>&nbsp; Appointments</li>
+                            </a>
+                            <a href="patients.html" class="list-items">
+                                <li class="mt-5"><i class="bi bi-person"></i>&nbsp; Patients</li>
+                            </a>
+                            <a href="./chat.html" class="list-items">
+                                <li class="mt-5"><i class="bi bi-chat-left-text"></i>&nbsp; Chats</li>
+                            </a>
+                            <h6 class="mt-5">Accounts</h6>
+                            <a href="#" class="list-items">
+                                <li class="mt-5"><i class="bi bi-gear"></i>&nbsp; Settings</li>
+                            </a>
+                            <a href="./Signin.html" class="list-items">
+                                <li class="mt-5"><i class="bi bi-box-arrow-right"></i>&nbsp; Logout</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+
+                <hr class="emergancy">
+                <div class="emergancy">
+                    <h6 class="emergancy-heading"><i class="bi bi-telephone-outbound"></i>&nbsp; Emergency Hotline</h6>
+                    <p class="ml-5">0992233005 </p>
+                </div>
+            </nav>
+            <div class="col-lg-10 col-md-12">
+                <div class="row search-bar">
+                    <div class="col-lg-7 mt-2">
+                        <div>
+                            <input type="email" class="form-control header-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Search Pathology results">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 d-flex justify-content-start mt-4 notifiction-icon">
+                        <i class="bi bi-bell-fill"></i>
+                    </div>
+                    <div class="col-lg-3 mt-3 d-flex justify-content-start user-profile-div">
+                        <img src="./images/img4.jpg" class="user-img">
+                        <a class="user-profile">Akule Vivian
+                            <br>
+                           <span class="designation">Doctor</span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="row mt-4">
+                    <div class="col-lg-6">
+                        <a href="#" class="logout">Chat</a>
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-end dark-theme">
+                        <i class="bi bi-brightness-high-fill "></i>&nbsp;
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault">Apply Dark Theme</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4 chat-container">
+                    <div class="col-lg-4 pl-0 pr-0" style="border-right: 1px solid lightgray;">
+                        <div class="sidebar-header d-flex justify-content-between">
+                            <div class="d-flex">
+                                <img src="./images/ben-parker-OhKElOkQ3RE-unsplash.jpg" class="user-img">
+                                <a class="user-profile">Ibrahim yenekie
+                                    <br>
+                                    <span class="gender">MAN</span>
+                                </a>
+                            </div>
+                            <div class="text-color">
+                                3 min ago
+                            </div>
+
+
+
+
+                        </div>
+
+                        <div class="sidebar-items">
+                            <div class="d-flex">
+                                <img src="./images/jurica-koletic-7YVZYZeITc8-unsplash.jpg" class="user-img">
+                                <a class="user-profile">Ebuaka Kelechi
+                                    <br>
+                                    <span class="gender">MAN</span>
+                                </a>
+                            </div>
+                            <div class="text-color">
+                                10 min ago
+                            </div>
+
+                        </div>
+                        <div class="sidebar-items">
+                            <div class="d-flex">
+                                <img src="./images/jakob-owens-lkMJcGDZLVs-unsplash.jpg" class="user-img">
+                                <a class="user-profile">Kemi Olowjeje
+                                    <br>
+                                    <span class="gender">MAN</span>
+                                </a>
+                            </div>
+                            <div class="text-color">
+                                30 min ago
+                            </div>
+                        </div>
+                        <div class="sidebar-items">
+                            <div class="d-flex">
+                                <img src="./images/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg" class="user-img">
+                                <a class="user-profile">Michale Stwart
+                                    <br>
+                                    <span class="gender">MAN</span>
+                                </a>
+                            </div>
+                            <div class="text-color">
+                                2 hr ago
+                            </div>
+                        </div>
+                        <div class="sidebar-items">
+                            <div class="d-flex">
+                                <img src="./images/anthony-tran-3Xkms-gMvZg-unsplash.jpg" class="user-img">
+                                <a class="user-profile">Scut Tom
+                                    <br>
+                                    <span class="gender">WOMAN</span>
+                                </a>
+                            </div>
+                            <div class="text-color">
+                                4 hr ago
+                            </div>
+                        </div>
+                        <div class="sidebar-items">
+                            <div class="d-flex">
+                                <img src="./images/img4.jpg" class="user-img">
+                                <a class="user-profile">Ibrahim yenekie
+                                    <br>
+                                    <span class="gender">MAN</span>
+                                </a>
+                            </div>
+                            <div class="text-color">
+                                2 days ago
+                            </div>
+                        </div>
+                        <div class="sidebar-items">
+                            <div class="d-flex">
+                                <img src="./images/ayo-ogunseinde-6W4F62sN_yI-unsplash.jpg" class="user-img">
+                                <a class="user-profile">Amina Ahmad
+                                    <br>
+                                    <span class="gender">WOMAN</span>
+                                </a>
+                            </div>
+                            <div class="text-color">
+                                4 days ago
+                            </div>
+                        </div>
+                        <div class="sidebar-lastitem">
+                            <input type="text" class="form-control sidebar-search" placeholder="Search name or gender">
+                        </div>
+
+                    </div>
+                    <div class="col-lg-8  pl-0 pr-0">
+                        <div class="chat-header d-flex justify-content-between">
+                            <div class="d-flex">
+                                <img src="./images/ben-parker-OhKElOkQ3RE-unsplash.jpg" class="user-img">
+                                <a class="user-profile">Ibrahim yenekie
+                                    <br>
+                                    <span class="gender">MAN</span>
+                                </a>
+                            </div>
+                            <div class="dropdown d-flex justify-content-end mt-16">
+                                <button class="btn dot-btn  " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                   <div class="fs-4 dot-menu">
+                                    <i class="bi bi-three-dots "></i>
+                                   </div>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item fs-12 " href="#">CHAT</a>
+                                    <hr class="m-0">
+                                    <a class="dropdown-item fs-12" href="#">BOOK</a>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div>
+                                    <p class="chat-time"><span>1 WEEK AGO</span></p>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-12 d-flex">
+                                <img src="./images/ben-parker-OhKElOkQ3RE-unsplash.jpg" class="chat-img">
+                                <div class="message">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, eos.
+                                </div>
+                            </div>
+                            <div class="col-lg-12 d-flex justify-content-end mt-3">
+                                <div class="message">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, eos.
+                                </div>
+                                <img src="./images/ben-parker-OhKElOkQ3RE-unsplash.jpg" class="chat-img">
+                            </div>
+                            <div class="col-lg-12 d-flex mt-3">
+                                <img src="./images/ben-parker-OhKElOkQ3RE-unsplash.jpg" class="chat-img">
+                                <div class="message">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, eos.
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div>
+                                    <p class="chat-time"><span>TODAY</span></p>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-12 d-flex mt-3">
+                                <img src="./images/ben-parker-OhKElOkQ3RE-unsplash.jpg" class="chat-img">
+                                <div class="message">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, eos.
+                                </div>
+                            </div>
+                            <div class="col-lg-12 d-flex justify-content-end mt-3">
+                                <div class="message">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, eos.
+                                </div>
+                                <img src="./images/ben-parker-OhKElOkQ3RE-unsplash.jpg" class="chat-img">
+                            </div>
+
+
+                        </div>
+                        <div class="chat-footer d-flex justify-content-between">
+                            <div class="col-lg-9 pl-0">
+                                <input class="form-control pl-0 footer-search" placeholder="Start typing here">
+                            </div>
+                            <div class="col-lg-3 d-flex justify-content-end">
+                                <button class="btn footer-btn"><i class="bi bi-send"></i></button>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</html>

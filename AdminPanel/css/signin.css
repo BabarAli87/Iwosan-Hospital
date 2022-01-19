@@ -1,0 +1,64 @@
+.section1 {
+    position: relative;
+    overflow: hidden;
+}
+
+.section1-text {
+    text-align: center;
+}
+
+.box {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffff;
+    position: relative;
+}
+
+.social-media {
+    padding-top: 300px;
+}
+
+.heading-main {
+    color: rgb(52, 40, 230);
+    font-size: 60px !important;
+    font-weight: 300 !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.custom-card {
+    margin-top: 130px;
+}
+
+.custom-card .card {
+    border-radius: 35px;
+    box-shadow: 2px 2px 26px rgb(0 0 0 / 10%);
+    background-color: #ffffffdb;
+}
+
+#heading-2 {
+    color: rgb(52, 40, 230);
+}
+
+.gradient {
+    color: rgb(216, 37, 37);
+}
+
+.card-header {
+    background-color: transparent !important;
+    border-bottom: none;
+    color: rgb(52, 40, 230);
+    display: flex;
+    justify-content: center;
+}
+
+.card-input {
+    border-radius: 50px;
+}
+
+.button {
+    border-radius: 50px;
+    padding: 8px 24px;
+    background-color: rgb(52, 40, 230);
+    border: rgb(52, 40, 230);
+}
